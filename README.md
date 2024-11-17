@@ -1,11 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Web Application built with ***Ruby on Rails 8***
 
-Things you may want to cover:
-
-* Ruby version
+Deployed with ***Kamal 2*** onto a ***Linux server*** running on ***Raspberry Pi***.
 
 * System dependencies
 
