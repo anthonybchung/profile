@@ -8,3 +8,14 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+ *, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+ :root {
+  --primary-color: #A2D2FF;
+  --secondary-color: #BDE0FE;
+ }
