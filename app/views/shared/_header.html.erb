@@ -1,0 +1,16 @@
+<header>
+      <div class="header__wrapper">
+        <%= link_to root_path, class: "header__logo" do %>
+          Logo
+        <% end %>
+        <button class="header__button">
+          MenuBtn
+        </button>
+        <nav>
+          <ul class="header__nav-links--current">
+            <%= link_to_unless_current "Learning", static_pages_learning_path, class: "header__nav-links"%>
+            <%= link_to_unless_current "About Me", static_pages_aboutme_path, class: "header__nav-links" %>
+          </ul>
+        </nav>
+      </div>
+    </header>
