@@ -15,7 +15,19 @@
   margin: 0px;
 }
 
- :root {
+:root {
   --primary-color: #A2D2FF;
   --secondary-color: #BDE0FE;
- }
+  --main-width: 1024px;
+}
+
+main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    max-width: var(--main-width);
+  }
+}
